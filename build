@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PATH="/opt/toolchains/tc_arm-none-eabi-13/bin:${PATH}"
+make -j32
