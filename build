@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PATH="/opt/toolchains/tc_arm-none-eabi/bin:/opt/toolchains/tc_avr/bin:${PATH}"
+make -j32
